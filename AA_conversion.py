@@ -35,7 +35,7 @@ def image_to_ascii(image_path, output_width):
 def main():
     # コマンドライン引数から入力ファイルのパスと出力の横幅を入力
     if len(sys.argv) != 3:
-        print("例:python script.py input_image_path output_width")
+        print("例:python AA_conversion.py input_image_path output_width")
         return
     input_image_path = sys.argv[1]
     output_width = int(sys.argv[2])
