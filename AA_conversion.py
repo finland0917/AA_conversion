@@ -10,7 +10,7 @@ def image_to_ascii(image_path, output_width):
     img = Image.open(image_path)
     
     # 画像のアスペクト比を維持してリサイズ
-    aspect_ratio = img.width / img.heightｃ
+    aspect_ratio = img.width / img.height
 
     # 高さを計算
     output_height = int(output_width / aspect_ratio)
